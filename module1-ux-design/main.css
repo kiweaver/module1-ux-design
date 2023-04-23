@@ -41,6 +41,7 @@ html {
 .productcont {
   display: flex; 
 }
+/* Product */
 .product {
   padding:1em; 
   border:1px solid #E0E4CC; 

@@ -1,7 +1,10 @@
 $(document).ready(function(){
     $('.modal').modal();
+    //Sidenav
     $('.sidenav').sidenav();
+    // Parallax
     $('.parallax').parallax();
+    // Reviews/carousel
     $('.myreviews').carousel({
         numVisible:7,
         shift:55,
