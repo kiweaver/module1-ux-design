@@ -1,0 +1,41 @@
+$font-family_1: 'Bree Serif', serif;
+$background-color_1: #bf5b1d;
+
+html {
+	scroll-behavior: smooth;
+}
+.slider {
+	.indicators {
+		.indicator-item.active {
+			background-color: $background-color_1;
+		}
+	}
+	h3 {
+		font-family: $font-family_1;
+	}
+	h5 {
+		font-family: $font-family_1;
+	}
+}
+.move {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-family: $font-family_1;
+}
+.parallax-container {
+	min-height: 280px;
+	height: auto;
+}
+.logo {
+	max-height: 100%;
+	max-width: 70%;
+}
+#nav-mobile {
+	font-family: $font-family_1;
+	font-size: 2rem !important;
+}
+.sidenav {
+	font-family: $font-family_1;
+	font-size: 2rem !important;
+}
+
